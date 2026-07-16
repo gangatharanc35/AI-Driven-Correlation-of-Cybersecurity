@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cybersecurity AI</title>
+</head>
+
+<body>
+
+<h2>AI Threat Detection</h2>
+
+<form action="/predict" method="post">
+
+Login Attempts
+
+<input type="number" name="login">
+
+<br><br>
+
+Failed Logins
+
+<input type="number" name="failed">
+
+<br><br>
+
+Transaction Amount
+
+<input type="number" name="amount">
+
+<br><br>
+
+New Device
+
+<select name="device">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</select>
+
+<br><br>
+
+<input type="submit">
+
+</form>
+
+<h2>{{prediction}}</h2>
+
+</body>
+
+</html>
