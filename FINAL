@@ -1,0 +1,48 @@
+# AI-Driven Correlation of Cybersecurity Telemetry & Transactional Behaviour
+
+## Overview
+
+This project uses Artificial Intelligence to detect suspicious financial transactions by correlating cybersecurity telemetry with transactional behavior.
+
+## Features
+
+- Login anomaly detection
+- Failed login monitoring
+- High-value transaction analysis
+- New device detection
+- AI anomaly detection using Isolation Forest
+- Flask web interface
+
+## Technologies
+
+- Python
+- Flask
+- Scikit-learn
+- Pandas
+- NumPy
+
+## Run
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Train model
+
+```bash
+python train_model.py
+```
+
+Run application
+
+```bash
+python app.py
+```
+
+Open
+
+```
+http://127.0.0.1:5000
+```
