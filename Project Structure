@@ -1,0 +1,10 @@
+AI-Cybersecurity-Telemetry/
+│
+├── app.py
+├── train_model.py
+├── requirements.txt
+├── README.md
+├── dataset.csv
+├── model.pkl
+└── templates/
+    └── index.html
